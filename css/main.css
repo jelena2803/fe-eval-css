@@ -1,0 +1,23 @@
+body {
+    background-color: paleturquoise;
+}
+
+header {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: inline;
+    padding: 5px;
+}
+
+.intro {
+    border-style: solid;
+    border-radius: 5px;
+}
