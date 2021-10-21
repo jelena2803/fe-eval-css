@@ -8,16 +8,51 @@ header {
     width: 100%;
 }
 
-.nav-menu {
+img {
+    border-radius: 20px;
+}
+
+.nav-menu,
+footer {
     list-style-type: none;
 }
 
 .nav-menu li {
     display: inline;
-    padding: 5px;
+    margin: 5px;
 }
 
 .intro {
-    border-style: solid;
-    border-radius: 10px;
+    border-style: hidden;
+    border-radius: 5px;
+    display: flex;
+}
+
+.intro div {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.intro img {
+    height: fit-content;
+    min-width: 120px;
+}
+
+.courses-info div {
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: honeydew;
+}
+
+footer li {
+    display: inline;
+    margin: 5px;
+}
+
+.footer {
+    position: fixed;
+    max-height: 100px;
+    bottom: 0px;
+    width: 100%;
+    background-color: beige;
 }
