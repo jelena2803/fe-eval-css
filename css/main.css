@@ -1,5 +1,5 @@
 body {
-    background-color: paleturquoise;
+    background-color: rgb(180, 190, 190);
 }
 
 header {
@@ -22,6 +22,10 @@ footer {
     margin: 5px;
 }
 
+.nav-menu li:hover {
+    text-decoration: underline;
+}
+
 .intro {
     border-style: hidden;
     border-radius: 5px;
@@ -38,7 +42,12 @@ footer {
     min-width: 120px;
 }
 
+.courses-info {
+    margin-bottom: 90px;
+}
+
 .courses-info div {
+    display: inline-block;
     border-style: hidden;
     border-radius: 5px;
     background-color: honeydew;
@@ -51,7 +60,7 @@ footer li {
 
 .footer {
     position: fixed;
-    max-height: 100px;
+    max-height: 80px;
     bottom: 0px;
     width: 100%;
     background-color: beige;
