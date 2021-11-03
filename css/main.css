@@ -19,7 +19,7 @@ footer {
 
 .nav-menu li {
     display: inline;
-    margin: 5px;
+    margin: 10px;
 }
 
 .nav-menu li:hover {
@@ -28,13 +28,13 @@ footer {
 
 .intro {
     border-style: hidden;
-    border-radius: 5px;
     display: flex;
 }
 
-.intro div {
+.intro div,
+.contact div {
     display: inline-block;
-    margin-left: 10px;
+    margin: 10px;
 }
 
 .intro img {
@@ -42,15 +42,35 @@ footer {
     min-width: 120px;
 }
 
-.courses-info {
+.interests div {
+    display: inline-block;
+}
+
+.interests p {
+    text-align: center;
+}
+
+.interests img {
+    height: 150px;
+    width: 150px;
+}
+
+.contact {
     margin-bottom: 90px;
 }
 
 .courses-info div {
     display: inline-block;
     border-style: hidden;
-    border-radius: 5px;
+    border-radius: 20px 0px;
     background-color: honeydew;
+}
+
+.contact div {
+    border-style: hidden;
+    border-radius: 20px;
+    background-color: rgb(194, 247, 194);
+    padding: 10px;
 }
 
 footer li {
@@ -64,4 +84,18 @@ footer li {
     bottom: 0px;
     width: 100%;
     background-color: beige;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .intro {
+        flex-wrap: wrap;
+    }
 }
