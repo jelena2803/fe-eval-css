@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(180, 190, 190);
+    background-image: radial-gradient(#933c3c, #9898b5);
+    margin: 0;
 }
 
 header {
     display: block;
     position: relative;
     width: 100%;
+    background-color: #845b72;
+    padding: 1px;
 }
 
 img {
@@ -42,21 +45,19 @@ footer {
     min-width: 120px;
 }
 
-.interests div {
-    display: inline-block;
+.interests {
+    text-align: center;
 }
 
-.interests p {
-    text-align: center;
+.interests div {
+    display: inline-block;
+    margin: 5px;
 }
 
 .interests img {
     height: 150px;
     width: 150px;
-}
-
-.contact {
-    margin-bottom: 90px;
+    border-radius: 20px;
 }
 
 .courses-info div {
@@ -66,10 +67,15 @@ footer {
     background-color: honeydew;
 }
 
+.contact {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
 .contact div {
     border-style: hidden;
     border-radius: 20px;
-    background-color: rgb(194, 247, 194);
+    background-color: rgb(138, 105, 124);
     padding: 10px;
 }
 
