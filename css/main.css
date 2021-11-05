@@ -58,6 +58,7 @@ footer {
     height: 150px;
     width: 150px;
     border-radius: 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 .courses-info div {
@@ -79,17 +80,22 @@ footer {
     padding: 10px;
 }
 
+hr {
+    width: 95%;
+    border-color: #845b72;
+}
+
 footer li {
     display: inline;
     margin: 5px;
 }
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     max-height: 80px;
-    bottom: 0px;
+    /* bottom: 0px; */
     width: 100%;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 h1 {
