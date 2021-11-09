@@ -150,5 +150,9 @@ h2 {
 @media screen and (max-width: 500px) {
     .intro {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    body {
+        margin: 70px 0px 0px 0px;
     }
 }
