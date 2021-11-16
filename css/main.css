@@ -5,6 +5,11 @@ body {
     color: #040735;
 }
 
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
 header {
     display: block;
     position: fixed;
