@@ -55,10 +55,6 @@ a:hover {
     min-width: 120px;
 }
 
-.interests {
-    text-align: center;
-}
-
 .interests div {
     display: inline-block;
     margin: 5px;
@@ -133,7 +129,6 @@ a:hover {
 
 .contact {
     margin: 50px;
-    text-align: center;
 }
 
 .contact div {
@@ -165,7 +160,9 @@ h1 {
     margin-top: 0px;
 }
 
-h2 {
+h2,
+.interests,
+.contact {
     text-align: center;
 }
 
